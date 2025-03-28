@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void displayMessage(int i);
+
+int main() {
+    int age = 25;
+    char name[] = "John Doe";
+
+    printf("Hello, %s! You are %d years old.\n", name, age);
+
+    displayMessage();
+
+    return 0;
+}
+
+void displayMessage() {
+    printf("This is a simple C program.\n");
+}
